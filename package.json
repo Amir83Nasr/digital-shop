@@ -9,8 +9,7 @@
     "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write .",
-    "prepare": "husky"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@fullstacksjs/eslint-config": "^12.2.0",
