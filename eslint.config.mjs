@@ -5,5 +5,5 @@ export default defineConfig({
     tsconfigRootDir: import.meta.dirname, // If you are using TypeScript
   },
   rules: {},
-  prettier: 0,
+  // prettier: 0,
 })
