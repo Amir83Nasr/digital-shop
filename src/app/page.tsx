@@ -1,9 +1,11 @@
-import { Button } from '@/components/ui/button'
+import Banner from '@/components/banner'
+import Welcome from '@/components/Welcome'
 
 export default function Home() {
   return (
-    <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
-      <Button>submint</Button>
+    <div className="flex flex-col items-center justify-between">
+      <Banner />
+      <Welcome />
     </div>
   )
 }
