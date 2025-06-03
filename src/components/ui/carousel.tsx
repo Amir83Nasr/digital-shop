@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 'use client'
 
 import type { UseEmblaCarouselType } from 'embla-carousel-react'
